@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Dojo Weather Forecast</h1>
+  <br>
+  <a [routerLink]="['seattle']">Seattle WA</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a [routerLink]="['sanjose']">San Jose CA</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a [routerLink]="['burbank']">Burbank CA</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a [routerLink]="['dallas']">Dallas TX</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a [routerLink]="['dc']">Washington DC</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a [routerLink]="['chicago']">Chicago IL</a>
+  <br><br>
+  <fieldset>
+    <legend>router-outlet</legend>
+    <router-outlet></router-outlet>
+  </fieldset>
+  
+</body>
+</html>
